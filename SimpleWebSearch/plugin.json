@@ -1,0 +1,12 @@
+﻿{
+  "ID":"ca8c0c3dea2e4f75833482489587d33d",
+  "ActionKeyword":"*",
+  "Name":"Simple Web Search",
+  "Description":"Allows web searches without needing to type an action keyword",
+  "Author":"sarrascaeta",
+  "Version":"1.0.0",
+  "Language":"csharp",
+  "Website":"",
+  "IcoPath": "Images\\google.png",
+  "ExecuteFileName":"SimpleWebSearch.dll"
+}
