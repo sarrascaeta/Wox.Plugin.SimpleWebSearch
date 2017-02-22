@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 using Wox.Plugin;
 
 namespace SimpleWebSearch
@@ -28,7 +29,7 @@ namespace SimpleWebSearch
                 Score = 5,
                 Action = e =>
                 {
-                    Process.Start("http://google.com/search?q=" + query);
+                    Process.Start("http://google.com/search?q=" + HttpUtility.UrlEncode(query.ToString()));
                     return true;
                 }
             });
