@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleWebSearch", "BetterWebSearchPlugin\SimpleWebSearch.csproj", "{0E16D187-FB42-48B2-B464-176F47B1153D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleWebSearch", "SimpleWebSearch\SimpleWebSearch.csproj", "{0E16D187-FB42-48B2-B464-176F47B1153D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
